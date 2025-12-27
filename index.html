@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인 프로필</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 헤더 -->
+        <header>
+            <div class="profile-header">
+                <div class="profile-image">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=faces" alt="프로필 사진">
+                </div>
+                <div class="profile-info">
+                    <h1>김그린</h1>
+                    <p class="english-name">Kim Green</p>
+                    <p class="title">풀스택 개발자 | 창의적인 문제 해결자</p>
+                    <p class="bio">
+                        열정적인 개발자로서 사용자 경험을 최우선으로 생각하며, 
+                        최신 기술 트렌드를 학습하고 적용하는 것을 즐깁니다. 
+                        깔끔한 코드와 효율적인 솔루션을 추구합니다.
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 네비게이션 -->
+        <nav>
+            <ul>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#skills">스킬</a></li>
+                <li><a href="#projects">프로젝트</a></li>
+                <li><a href="#experience">경력</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+
+        <!-- 스킬 섹션 -->
+        <section id="skills" class="fade-in">
+            <h2>기술 스킬</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3><span class="skill-icon">⚡</span>JavaScript</h3>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">🌐</span>HTML</h3>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 92%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">🎨</span>CSS/SCSS</h3>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">💻</span>jQuery</h3>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">🐍</span>Python</h3>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">🎨</span>Figma</h3>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">🖼️</span>Photoshop</h3>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 78%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">🔧</span>Git</h3>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 82%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 프로젝트 섹션 -->
+        <section id="projects" class="fade-in">
+            <h2>주요 프로젝트</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>E-Commerce 플랫폼</h3>
+                    <p>
+                        React와 Node.js를 활용한 풀스택 전자상거래 플랫폼입니다. 
+                        실시간 주문 처리 및 결제 시스템을 구현했습니다.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>포트폴리오 웹사이트</h3>
+                    <p>
+                        반응형 디자인과 부드러운 애니메이션을 적용한 
+                        개인 포트폴리오 웹사이트입니다.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>데이터 분석 대시보드</h3>
+                    <p>
+                        Python과 Django를 사용하여 실시간 데이터 시각화 
+                        대시보드를 개발했습니다.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">Chart.js</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 경력 섹션 -->
+        <section id="experience" class="fade-in">
+            <h2>경력</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>시니어 개발자</h3>
+                    <p class="date">2022.01 - 현재</p>
+                    <p>주요 프로젝트 리딩 및 팀 멘토링을 담당하고 있습니다.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>풀스택 개발자</h3>
+                    <p class="date">2020.03 - 2021.12</p>
+                    <p>프론트엔드와 백엔드 개발을 담당하며 다양한 프로젝트를 완수했습니다.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>주니어 개발자</h3>
+                    <p class="date">2018.06 - 2020.02</p>
+                    <p>웹 개발 기초를 다지며 실무 경험을 쌓았습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 연락처 섹션 -->
+        <section id="contact" class="fade-in">
+            <h2>연락처</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>📧 이메일</h3>
+                    <a href="mailto:your.email@example.com">your.email@example.com</a>
+                </div>
+                <div class="contact-item">
+                    <h3>💼 LinkedIn</h3>
+                    <a href="#" target="_blank">linkedin.com/in/yourprofile</a>
+                </div>
+                <div class="contact-item">
+                    <h3>🐙 GitHub</h3>
+                    <a href="#" target="_blank">github.com/yourusername</a>
+                </div>
+                <div class="contact-item">
+                    <h3>📱 전화</h3>
+                    <a href="tel:+821012345678">010-1234-5678</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // 스크롤 애니메이션
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // 부드러운 스크롤
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
