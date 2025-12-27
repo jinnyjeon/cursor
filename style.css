@@ -369,6 +369,10 @@ section h2::after {
 
 /* 반응형 */
 @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
     .profile-header {
         flex-direction: column;
         text-align: center;
@@ -379,11 +383,22 @@ section h2::after {
     }
 
     section {
-        padding: 25px;
+        padding: 20px;
     }
 
     nav ul {
         flex-direction: column;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-card {
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
